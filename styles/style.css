@@ -16,6 +16,11 @@
     font-weight: 400;
     font-size: 20px;
 }
+.secondary-button{
+    background-color: transparent;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+}
 
 .primary-color {
     color: #FD6E0A;
@@ -225,11 +230,84 @@ main {
     font-size: 16px;
     color: #757575;
 }
-.resume-container .line{
+
+.resume-container .line {
     border: 1px solid #D1D1D1;
 }
-.resume-button{
+
+.resume-button {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+}
+
+/* Contact Styles */
+.contact{
+    background: #FFF8F3;
+    padding: 100px 0;
+}
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.contact-left {
+    max-width: 50%;
+    margin-right: 100px;
+}
+
+.contact-left h3 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.contact-left p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin: 20px 0 30px 0;
+}
+
+.contact-left .social {
+    display: flex;
+}
+
+.contact-left .social img {
+    width: 24px;
+    margin-right: 24px;
+}
+
+.contact-right h3 {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.contact-right form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-right form input, textarea{
+    font-weight: 400;
+font-size: 16px;color: #757575;
+padding: 18px 30px;
+border: none;
+outline: none;
+margin-bottom: 24px;
+}
+.contact-right form input.primary-button{
+    color: #fff;
+    width: fit-content;
+}
+
+/* Footer Styles */
+footer{
+    text-align: center;
+    padding: 30px 0;
+}
+footer p{
+    color: lightgray;
 }
